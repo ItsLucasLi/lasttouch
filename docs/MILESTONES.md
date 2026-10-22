@@ -9,14 +9,14 @@ by hand. Finish one, review it, then start the next.
 
 **Goal:** an empty but working monorepo.
 
-- [ ] pnpm workspace with `packages/lasttouch` and `apps/demo`
-- [ ] TypeScript strict, ESLint, Prettier, Vitest configured
-- [ ] Next.js App Router app in `apps/demo` that imports a placeholder from `lasttouch`
-- [ ] Root scripts: `pnpm dev`, `pnpm test`, `pnpm lint`, `pnpm typecheck`
-- [ ] MIT `LICENSE`, `.gitignore`, `.env.example`
-- [ ] GitHub Actions CI running lint, typecheck and test
+- [x] pnpm workspace with `packages/lasttouch` and `apps/demo`
+- [x] TypeScript strict, ESLint, Prettier, Vitest configured
+- [x] Next.js App Router app in `apps/demo` that imports a placeholder from `lasttouch`
+- [x] Root scripts: `pnpm dev`, `pnpm test`, `pnpm lint`, `pnpm typecheck`
+- [x] MIT `LICENSE`, `.gitignore`, `.env.example`
+- [x] GitHub Actions CI running lint, typecheck and test
 
-- [ ] `vercel.json` (or Vercel project settings documented in the PR) so `apps/demo` deploys from the monorepo
+- [x] `vercel.json` (or Vercel project settings documented in the PR) so `apps/demo` deploys from the monorepo
 
 **Done when:** `pnpm dev` works, CI is green, and the PR's Vercel preview URL
 shows the placeholder demo page.
