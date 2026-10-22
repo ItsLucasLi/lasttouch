@@ -104,6 +104,18 @@ native OS dialogs that work with assistive technology.
 **Nightjar Live** is a fictional ticket site for trying LastTouch, and for
 pointing your own AI agent at it. *(Link coming in M3.)*
 
+## Development
+
+Requires Node.js 22.12+ and pnpm 10 (`corepack enable` picks the right pnpm).
+
+```bash
+pnpm install
+pnpm dev        # demo at http://localhost:3000
+pnpm lint
+pnpm typecheck
+pnpm test
+```
+
 ## Roadmap
 
 See [`docs/MILESTONES.md`](docs/MILESTONES.md).

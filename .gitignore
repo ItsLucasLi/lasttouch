@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# env files (commit only .env.example)
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel/
+
+# test output
+test-results/
+playwright-report/
+
+# os / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
